@@ -1,9 +1,19 @@
-#This code prints the number of characters in a user's name.
-print( len( input("What is your name? ") ) )
+# 🚨 Don't change the code below 👇
+a = input("a: ")
+b = input("b: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+
+c = a
+a = b
+b = c
 
 
+#Write your code above this line 👆
+####################################
 
-#Notes
-#If input was "Jack"
-#1st: print(len("Jack"))
-#2nd: print(4)
+# 🚨 Don't change the code below 👇
+print("a: " + a)
+print("b: " + b)
