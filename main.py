@@ -1,4 +1,9 @@
-print("Day 1 - String Manipulation")
-print("String Concatenation is done with the + sign.")
-print('e.g. print("Hello " + "world")')
-print("New lines can be created with a backslash and n.")
+#This code prints the number of characters in a user's name.
+print( len( input("What is your name? ") ) )
+
+
+
+#Notes
+#If input was "Jack"
+#1st: print(len("Jack"))
+#2nd: print(4)
